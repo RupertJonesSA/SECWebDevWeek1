@@ -1,81 +1,88 @@
-<style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        <style>
 
-    .amazon-anchor{
-        font-size: 18;
-        transition: color .15s;  
-    }
+            .amazon-anchor{
+                font-size: 18;
+                transition: color .15s;  
+            }
+        
+            .amazon-anchor:hover{
+                color: rgba(255, 128, 0, 0.861);
+            }
+        
+            .cart-button{
+                background-color: rgba(255, 234, 0, 0.895);
+                color: black;
+                border: none;
+                height: 34px;
+                width: 135px;
+                border-radius: 17px;
+                margin-right: 8px; 
+                font-size: 16; 
+                transition: opacity 0.15s; 
+            }
+        
+            .cart-button:hover{
+                opacity: 0.8;
+            }
+        
+            .cart-button:active{
+                opacity: 0.5;
+            }
+        
+            .buy-button{
+                background-color: rgba(255, 128, 0, 0.861);
+                color: black; 
+                border: none; 
+                height: 34px;
+                width: 135px;
+                border-radius: 17px;
+                font-size: 16;
+                transition: opacity 0.15s; 
+            }
+        
+            .buy-button:hover{
+                opacity: 0.8;
+            }
+        
+            .buy-button:active{
+                opacity: 0.5; 
+            }
+        
+            .nike-text{
+                font-weight: bold;
+                font-size: 24;
+            }
+        
+            .price-text{
+                font-weight: bold;
+                font-size: 18; 
+                color: green
+            }
+        
+            .free-text{
+                font-size: 18;
+            }
+        </style>
+    </head>
+    <body>
+        <a class="amazon-anchor" href="https://www.amazon.com/ref=nav_logo" target="_blank">
+            Back to Amazon
+        </a>
+        
+        <p class="nike-text">Nike Black Running Shoes</p>
+        
+        <p class="price-text">$39 - in stock.</p>
+        
+        <p class="free-text">Free delivery tomorrow.</p>
+        
+        <button class="cart-button">Add to Cart</button>
+        <button class="buy-button">Buy Now</button>
+    </body>
+</html>
 
-    .amazon-anchor:hover{
-        color: rgba(255, 128, 0, 0.861);
-    }
 
-    .cart-button{
-        background-color: rgba(255, 234, 0, 0.895);
-        color: black;
-        border: none;
-        height: 34px;
-        width: 135px;
-        border-radius: 17px;
-        margin-right: 8px; 
-        font-size: 16; 
-        transition: opacity 0.15s; 
-    }
-
-    .cart-button:hover{
-        opacity: 0.8;
-    }
-
-    .cart-button:active{
-        opacity: 0.5;
-    }
-
-    .buy-button{
-        background-color: rgba(255, 128, 0, 0.861);
-        color: black; 
-        border: none; 
-        height: 34px;
-        width: 135px;
-        border-radius: 17px;
-        font-size: 16;
-        transition: opacity 0.15s; 
-    }
-
-    .buy-button:hover{
-        opacity: 0.8;
-    }
-
-    .buy-button:active{
-        opacity: 0.5; 
-    }
-
-    .nike-text{
-        font-weight: bold;
-        font-size: 24;
-    }
-
-    .price-text{
-        font-weight: bold;
-        font-size: 18; 
-        color: green
-    }
-
-    .free-text{
-        font-size: 18;
-    }
-</style>
-
-
-
-<a class="amazon-anchor" href="https://www.amazon.com/ref=nav_logo" target="_blank">
-    Back to Amazon
-</a>
-
-<p class="nike-text">Nike Black Running Shoes</p>
-
-<p class="price-text">$39 - in stock.</p>
-
-<p class="free-text">Free delivery tomorrow.</p>
-
-<button class="cart-button">Add to Cart</button>
-<button class="buy-button">Buy Now</button>
 
